@@ -1,0 +1,14 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "*.spec.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "out-tsc",
+    "declaration": true,
+    "emitDeclarationOnly": true
+  }
+}

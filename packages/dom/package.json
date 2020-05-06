@@ -1,0 +1,39 @@
+{
+  "name": "@react-animation-hooks/dom",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Heorhi Shakanau <g.shokanov@gmail.com>",
+  "homepage": "https://github.com/MagicCurlyHair/react-animation-hooks#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "dist/es/react-animation-hooks-dom.js",
+  "typings": "dist/dom.d.ts",
+  "files": [
+    "README.md",
+    "index.js",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicCurlyHair/react-animation-hooks.git"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "build:types": "tsc -p tsconfig.json && api-extractor run --diagnostics",
+    "build:types:local": "tsc -p tsconfig.json && api-extractor run --local"
+  },
+  "bugs": {
+    "url": "https://github.com/MagicCurlyHair/react-animation-hooks/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.6"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.8.0",
+    "schemaVersion": 1003,
+    "oldestForwardsCompatibleVersion": 1001
+  },
+  "kind": "Package",
+  "canonicalReference": "@react-animation-hooks/core!",
+  "docComment": "",
+  "name": "@react-animation-hooks/core",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@react-animation-hooks/core!",
+      "name": "",
+      "members": [
+        {
+          "kind": "Variable",
+          "canonicalReference": "@react-animation-hooks/core!core:var",
+          "docComment": "/**\n * Placeholder\n *\n * @beta\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "core = 42"
+            }
+          ],
+          "releaseTag": "Beta",
+          "name": "core",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        }
+      ]
+    }
+  ]
+}
