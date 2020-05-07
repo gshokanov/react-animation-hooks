@@ -49,7 +49,7 @@
   "husky": {
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
-      "pre-commit": "lint-staged && lerna run build:types:local"
+      "pre-commit": "lint-staged && lerna run build:types:local && git add common"
     }
   }
 }
